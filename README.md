@@ -19,17 +19,20 @@ Second page that is loaded when "Employee" is selected in previous canvas, link 
 <img src="images/canvas_2.png">
 <br />
 <br />
-Open lottie_hover_animations.framerx file, in code tab you will find:
+Instructions
+<br />
+<br />
+1) Open lottie_hover_animations.framerx file, in code tab you will find:
 - Base.tsx (I'm using only the hover method from here)
 - LottieCustom.tsx (responsable for load animation and interactions)
 - Lottie_animations folder with animations for canvas 1 and canvas 2 in json format
 <br />
 <br />
-You can replace the code folder from this repository with your local code folder, if things are not working well.
+2) You can replace the code folder from this repository with your local code folder, if things are not working well.
 To find your project folder, in the menu > File > Show Project Folder.
 <br />
 <br />
-Install Lottie package (Framer Team) from FramerX packages tab.
+3) Install Lottie package (Framer Team) from FramerX packages tab.
 <br />
 <br />
 *Framer says it can't find react-lottie reference in the project node_modules, but it's ok.
