@@ -8,10 +8,10 @@ The FramerX project uses the react-lottie library to make animations work.
 The LottieCustom class uses the events "onMouseEnter" and "onMouseLeave" to start and stop the lottie animation.
 <br />
 <br />
-First canvas with hover effect on card option
+First page with a link in the first card "Employee"
 <img src="images/canvas_1.png">
 <br />
-Second canvas that is loaded when "Employee" is selected in previous canvas
+Second page that is loaded when "Employee" is selected in previous canvas, link to goes back to page one in the arrow
 <img src="images/canvas_2.png">
 <br />
 <br />
