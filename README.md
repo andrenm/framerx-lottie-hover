@@ -11,13 +11,11 @@ The FramerX project uses the react-lottie library to load and interact with the 
 - Custom control on FramerX panel, so you can choose the animation that will be loaded 
 - Lottie animations come in json format, imported from code folder
 <br />
-<br />
 First page with a link in the first card "Employee"
 <img src="images/canvas_1.png">
 <br />
 Second page that is loaded when "Employee" is selected in previous canvas, link to goes back to page one in the arrow
 <img src="images/canvas_2.png">
-<br />
 <br />
 Instructions
 <br />
@@ -35,7 +33,7 @@ To find your project folder, in the menu > File > Show Project Folder.
 3) Install Lottie package (Framer Team) from FramerX packages tab.
 <br />
 <br />
-*Framer says it can't find react-lottie reference in the project node_modules, but it's ok.
+*In LottieCustom.tsc, framer says it can't find react-lottie reference in the project node_modules, but it's ok.
 <br />
-*If it react-lottie does not work after install it from the package tab, you'll have to install it from the terminal, this article will explain how to do it (search for Lottie section):
+*However, if react-lottie does not work after install it from the package tab, you'll have to install it from the terminal, this article will explain how to do it (search for Lottie section):
 https://designcode.io/framer-playground-api-data 
