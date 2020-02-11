@@ -1,11 +1,15 @@
 # framerx-lottie-hover
 
-I have developed a custom solution to make it possible to start, revert, and pause animations.
+I have developed a custom react class that make it possible to start, revert and pause lottie animations with mouse events.
 <br />
 <br />
-The FramerX project uses the react-lottie library to make animations work.
+The FramerX project uses the react-lottie library to load and interact with the animations.<br />
 <br />
-The LottieCustom class uses the events "onMouseEnter" and "onMouseLeave" to start and stop the lottie animation.
+- Navigation through card options with box-shadow effect on hover (Base.tsx > Hover)
+- Lottie animation start with onMouseEnter event
+- Lottie animation revert direction with onMouseLeave for specific animation 2
+- Custom control on FramerX panel, so you can choose the animation that will be loaded 
+- Lottie animations come in json format, imported from code folder
 <br />
 <br />
 First page with a link in the first card "Employee"
@@ -15,7 +19,17 @@ Second page that is loaded when "Employee" is selected in previous canvas, link 
 <img src="images/canvas_2.png">
 <br />
 <br />
-- Navigation through card options with box-shadow effect on hover
-- Lottie animation start on mouse over
-- Lottie animation revert direction on mouse leave for specific animation
-- Custom control with animations options (animations in json format, imported from project folder)
+Open lottie_hover_animations.framerx file, in code tab you will find:
+- Base.tsx (I'm using only the hover method from here)
+- LottieCustom.tsx (responsable for load animation and interactions)
+- Lottie_animations folder with animations for canvas 1 and canvas 2 in json format
+<br />
+<br />
+You can replace the code folder from this repository with your local code folder, if things are not working well.
+To find your project folder, in the menu > File > Show Project Folder.
+<br />
+<br />
+Install Lottie package (Framer Team) from FramerX packages tab.
+<br />
+<br />
+*Framer says it can't find react-lottie reference in the project node_modules, but it's ok.
