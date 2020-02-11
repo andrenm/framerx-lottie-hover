@@ -8,12 +8,12 @@ import {
     RenderTarget,
 } from "framer"
 import Lottie from "react-lottie"
-import * as new_account_light from "./new_account_light.json"
-import * as new_project_light from "./new_project_light.json"
-import * as new_employee_light from "./new_employee_light.json"
-import * as existing_project from "./newEmployee/existing_project.json"
-import * as new_project from "./newEmployee/new_project.json"
-import * as without_project from "./newEmployee/without_project.json"
+import * as new_account_light from "./lottie_animations/canvas_1/new_account_light.json"
+import * as new_project_light from "./lottie_animations/canvas_1/new_project_light.json"
+import * as new_employee_light from "./lottie_animations/canvas_1/new_employee_light.json"
+import * as existing_project from "./lottie_animations/canvas_2/existing_project.json"
+import * as new_project from "./lottie_animations/canvas_2/new_project.json"
+import * as without_project from "./lottie_animations/canvas_2/without_project.json"
 
 // Open Preview: Command + P
 // Learn more: https://framer.com/api
