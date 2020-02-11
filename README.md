@@ -36,3 +36,5 @@ To find your project folder, in the menu > File > Show Project Folder.
 <br />
 <br />
 *Framer says it can't find react-lottie reference in the project node_modules, but it's ok.
+*If it react-lottie does not work after install it from the package tab, you'll have to install it from the terminal, this article will explain how to do it (search for Lottie section):
+https://designcode.io/framer-playground-api-data 
